@@ -1,0 +1,151 @@
+header, hgroup, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+* { /* reset the margin and padding for all HTML elements to zero and ensure the box model works consistently. */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('sunset.jpg'); /* Path to your background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: right;
+    background-color: rgb(11, 11, 48);
+    border-style: solid;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px 0px 0px 7px;
+    
+}
+
+body {
+	/* background-color:red; */
+    height: 100%;
+    background-image: url('ptrbackground.jpg'); /* Path to your background image */
+    background-size: 100% 100%; /* Scale the image to cover the entire body */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+	background-attachment: fixed;
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    /* height: 100%; */
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    float: left;
+    /* border-style: solid; */
+    width: 150px;
+    height: 600px;
+    padding: 15px 0 0 15px;
+    margin: 0 0 0 0;
+    background-color:rgb(137, 200, 226);
+}
+
+nav ul {
+    font-size: 1.2em;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+}
+
+nav li {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+#content {
+    /* border-style: solid; */
+    margin: 0 0 0 150px;
+    padding: 15px 0 0 25px;
+    background-color:rgb(242, 242, 242);
+}
+
+#content ul {
+    list-style: none; /* Remove default list-style bullets */
+    padding-left: 0;
+    margin-left: 340px;
+}
+
+#content ul li {
+    list-style-image: url('marker.gif'); /* Replace 'your-bullet-image.png' with the actual image path */
+    margin-bottom: 10px; /* Adjust the spacing between items as needed */
+    list-style-position: inside;
+}
+
+#content img {
+    float: left;
+    max-width: 100%;
+}
+
+#content p {
+    margin-top: 0;
+    margin-left: 340px; 
+    /* padding: 0 10px 0 10px; */
+} 
+
+.resort {
+    font-weight: bold !important;
+    color: #336491;
+}
+
+
+
+
+
+h1 {
+	/* margin-bottom: 0; */ 
+	/* padding: 10px; */
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+}
+h2 {
+    padding: 0px 0px 20px 0px;
+	color: #3399CC;
+}
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+footer {
+    font-size: 12px;
+    font-style: italic;
+	font-family: Georgia, "Times New Roman", serif;
+    /* border-style: solid; */
+    /* border-left-style: dotted; */
+    margin: 0px 0px 0px 150px;
+    padding: 25px 25px 25px 25px;
+    background-color:rgb(242, 242, 242);
+}
+
